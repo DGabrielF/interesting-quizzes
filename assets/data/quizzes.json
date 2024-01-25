@@ -1,0 +1,436 @@
+{
+  "quizzes": [
+    {
+      "id": 0,
+      "lure": "Descubra seu Destino Épico: Herói ou Vilão?",
+      "image": "https://e1.pxfuel.com/desktop-wallpaper/425/1013/desktop-wallpaper-spiderman-vs-venom-spider-man-and-venom.jpg",
+      "description": "Entre no universo da fantasia e responda a este quiz para desvendar o seu destino extraordinário. Você está destinado a ser um herói nobre ou um vilão astuto? A resposta revelará o verdadeiro campeão que existe dentro de você!",
+      "title":"Você seria um heroi ou vilão ?",
+      "questions":[
+        {
+          "id":1,
+          "question": "Qual super poder você escolheria ?",
+          "options":[
+            {"id": 1, "name":"Raios-Lasers", "alias":"A"},
+            {"id": 2, "name":"Voar", "alias":"B"},
+            {"id": 3, "name":"Explodir coisas", "alias":"A"},
+            {"id": 4, "name":"Curar feridas", "alias":"B"},
+            {"id": 5, "name":"Soltar fogo pelas mãos", "alias":"A"}
+          ]
+        },
+        {
+          "id":2,
+          "question": "Quem você salvaria primeiro ?",
+          "options":[
+            {"id": 1, "name":"Crianças", "alias":"A"},
+            {"id": 2, "name":"Idosos", "alias":"A"},
+            {"id": 3, "name":"Não saberia escolher", "alias":"B"}
+          ]
+        },
+        {
+          "id":3,
+          "question": "Qual a sua maior preocupação ao enfretar outro super ser ?",
+          "options":[
+            {"id": 1, "name":"Não destruir prédios", "alias":"B"},
+            {"id": 2, "name":"Socar a cara do inimigo", "alias":"A"},
+            {"id": 3, "name":"Não sujar meu traje", "alias":"A"},
+            {"id": 4, "name":"Não deixar ninguém se ferir", "alias":"B"}
+          ]
+        },
+        {
+          "id":4,
+          "question": "Qual o seu maior foco ?",
+          "options":[
+            {"id": 1, "name":"Ficar rico com poderes", "alias":"A"},
+            {"id": 2, "name":"Salvar a cidade", "alias":"B"}
+          ]
+        },
+        {
+          "id":5,
+          "question": "Qual o seu apelido de super ser ?",
+          "options":[
+            {"id": 1, "name":"O Terrivel", "alias":"A"},
+            {"id": 2, "name":"Amigo da vizinhança", "alias":"B"}
+          ]
+        },
+        {
+          "id": 6,
+          "question": "O que você faria se tivesse que escolher entre salvar um ente querido ou mil estranhos?",
+          "options": [
+            {"id": 1, "name": "Salvaria o ente querido", "alias": "A"},
+            {"id": 2, "name": "Salvaria os mil estranhos", "alias": "B"},
+            {"id": 3, "name": "Salvaria primeiro meu ente querido, depois os estranhos", "alias": "B"},
+            {"id": 4, "name": "Não salvaria ninguém", "alias": "A"}
+          ]
+        },
+        {
+          "id": 7,
+          "question": "Como você lidaria com um poderoso artefato que pode ser usado para o bem ou para o mal?",
+          "options": [
+            {"id": 1, "name": "Usaria para benefício próprio", "alias": "A"},
+            {"id": 2, "name": "Usaria para melhorar o mundo", "alias": "B"},
+            {"id": 3, "name": "Guardaria para evitar abusos", "alias": "B"},
+            {"id": 4, "name": "Usaria para eliminar meus inimogs", "alias": "A"}
+          ]
+        },
+        {
+          "id": 8,
+          "question": "O que te motiva mais: vingança ou justiça?",
+          "options": [
+            {"id": 1, "name": "Vingança", "alias": "A"},
+            {"id": 2, "name": "Justiça", "alias": "B"}
+          ]
+        },
+        {
+          "id": 9,
+          "question": "Você sacrificaria sua própria felicidade para garantir a felicidade dos outros?",
+          "options": [
+            {"id": 1, "name": "Sim, sem hesitar", "alias": "B"},
+            {"id": 2, "name": "Não, minha felicidade é prioridade", "alias": "A"},
+            {"id": 3, "name": "Ver as pessoas felizes me deixa feliz", "alias": "B"},
+            {"id": 2, "name": "Tá louco? Nunca!", "alias": "A"}
+          ]
+        },
+        {
+          "id": 10,
+          "question": "Se tivesse que quebrar uma regra para salvar vidas, o faria?",
+          "options": [
+            {"id": 1, "name": "Sim, salvar vidas é mais importante", "alias": "B"},
+            {"id": 2, "name": "As regras deveriam ser feitas para salvar vidas...", "alias": "B"},
+            {"id": 3, "name": "Não, regras são inquebráveis", "alias": "A"},
+            {"id": 4, "name": "Só sigo as minhas próprias regras", "alias": "A"}
+          ]
+        }
+      ],
+      "results":{
+        "A": "Você muito provavelmente seria um super vilão!",
+        "B": "Você muito provavelmente seria um super Herói!"
+      }
+    },
+    {
+      "id": 1,
+      "lure": "Descubra seu tipo de Temperamento!",
+      "image": "https://ibncoaching.com/wp-content/uploads/2021/12/quatro-temperamentos-humanos.png",
+      "description": "Este teste foi cuidadosamente projetado para ajudá-lo a descobrir e compreender melhor a sua personalidade e os traços que definem o seu temperamento único. Entre no seu universo interior e entenda melhor as suas reações.",
+      "title": "Teste de Temperamento",
+      "questions": [
+        {
+          "id": 1,
+          "question": "Como você reage sob pressão ?",
+          "options": [
+            {"id": 1, "name": "Fico irritado facilmente", "temperament": "colérico"},
+            {"id": 2, "name": "Mantenho a calma", "temperament": "fleumático"},
+            {"id": 3, "name": "Fico ansioso", "temperament": "melancólico"},
+            {"id": 4, "name": "Fico animado e agitado", "temperament": "sanguíneo"}
+          ]
+        },
+        {
+          "id": 2,
+          "question": "Como você se comporta em situações sociais ?",
+          "options": [
+            {"id": 1, "name": "Sou extrovertido e gosto de estar no centro das atenções", "temperament": "sanguíneo"},
+            {"id": 2, "name": "Sou mais reservado e observador", "temperament": "melancólico"},
+            {"id": 3, "name": "Interajo de maneira equilibrada, dependendo do ambiente", "temperament": "fleumático"},
+            {"id": 4, "name": "Prefiro interações mais diretas e assertivas", "temperament": "colérico"}
+          ]
+        },
+        {
+          "id": 3,
+          "question": "Qual é a sua abordagem em relação aos detalhes em projetos ?",
+          "options": [
+            {"id": 1, "name": "Foco nos detalhes e perfeccionismo", "temperament": "melancólico"},
+            {"id": 2, "name": "Gosto de ter uma visão geral antes de me aprofundar", "temperament": "fleumático"},
+            {"id": 3, "name": "Sou rápido em tomar decisões, mesmo sem todos os detalhes", "temperament": "colérico"},
+            {"id": 4, "name": "Adapto-me facilmente às mudanças nos detalhes", "temperament": "sanguíneo"}
+          ]
+        },
+        {
+          "id": 4,
+          "question": "Como você lida com o estresse no trabalho?",
+          "options": [
+            {"id": 1, "name": "Tendo a me tornar mais controlador e exigente", "temperament": "colérico"},
+            {"id": 2, "name": "Busco apoio emocional de colegas ou amigos", "temperament": "melancólico"},
+            {"id": 3, "name": "Mantenho a calma e tento resolver os problemas de maneira prática", "temperament": "fleumático"},
+            {"id": 4, "name": "Procuro atividades energéticas para liberar o estresse", "temperament": "sanguíneo"}
+          ]
+        },
+        {
+          "id": 5,
+          "question": "Qual é a sua reação a críticas construtivas?",
+          "options": [
+            {"id": 1, "name": "Aceito, mas também respondo assertivamente", "temperament": "colérico"},
+            {"id": 2, "name": "Levo para o lado pessoal e fico pensativo", "temperament": "melancólico"},
+            {"id": 3, "name": "Considero de forma objetiva e busco melhorar", "temperament": "fleumático"},
+            {"id": 4, "name": "Encaro de maneira positiva e vejo como uma oportunidade de crescimento", "temperament": "sanguíneo"}
+          ]
+        },
+        {
+          "id": 6,
+          "question": "Como você lida com tarefas monótonas ou repetitivas?",
+          "options": [
+            {"id": 1, "name": "Fico impaciente e procuro maneiras de acelerar o processo", "temperament": "colérico"},
+            {"id": 2, "name": "Tendo a procrastinar e sentir tédio", "temperament": "melancólico"},
+            {"id": 3, "name": "Mantenho uma abordagem estável e consistente", "temperament": "fleumático"},
+            {"id": 4, "name": "Encaro como uma oportunidade para desenvolver habilidades", "temperament": "sanguíneo"}
+          ]
+        },
+        {
+          "id": 7,
+          "question": "Como você lida com mudanças repentinas ?",
+          "options": [
+            {"id": 1, "name": "Adapto-me rapidamente", "temperament": "sanguíneo"},
+            {"id": 2, "name": "Fico resistente", "temperament": "melancólico"},
+            {"id": 3, "name": "Procuro soluções práticas", "temperament": "fleumático"},
+            {"id": 4, "name": "Reajo com irritação", "temperament": "colérico"}
+          ]
+        }
+      ],
+      "results": {
+        "colérico": "Seu temperamento é colérico! O que indica que você é determinado, assertivo, líder nato",
+        "fleumático": "Seu temperamento é fleumático! O que indica que você é calmo, paciente, equilibrado.",
+        "melancólico": "Seu temperamento é melancólico! O que indica que você é analítico, perfeccionista, sensível.",
+        "sanguíneo": "Seu temperamento é sanguíneo! O que indica que você é sociável, otimista, enérgico."
+      }
+    },
+    {
+      "id": 2,
+      "lure": "Descubra Sua Afinidade Elemental! 🔥💧🌿🌬️ ",
+      "image": "https://www.iquilibrio.com/blog/wp-content/uploads/2022/04/4-elementos-da-natureza-1280x720.jpg",
+      "description": "Você já se perguntou qual é a sua afinidade elemental? Se você é apaixonado pelas chamas do fogo, pela serenidade das águas, pela estabilidade da terra ou pela liberdade do ar, nosso Teste de Afinidade com os Elementos é perfeito para você!",
+      "title": "Teste de Afinidade com os Elementos",
+      "questions": [
+        {
+          "id": 1,
+          "question": "Qual ambiente você prefere?",
+          "options": [
+            {"id": 1, "name": "Deserto", "element": "fogo"},
+            {"id": 2, "name": "Oceano", "element": "água"},
+            {"id": 3, "name": "Montanhas", "element": "terra"},
+            {"id": 4, "name": "Floresta", "element": "ar"}
+          ]
+        },
+        {
+          "id": 2,
+          "question": "Qual atividade ao ar livre você mais gosta?",
+          "options": [
+            {"id": 1, "name": "Acampar perto de uma fogueira", "element": "fogo"},
+            {"id": 2, "name": "Nadar em um rio ou lago", "element": "água"},
+            {"id": 3, "name": "Explorar trilhas ecológicas", "element": "terra"},
+            {"id": 4, "name": "Praticar esportes aéreos", "element": "ar"}
+          ]
+        },
+        {
+          "id": 3,
+          "question": "Qual é a sua estação do ano favorita?",
+          "options": [
+            {"id": 1, "name": "Verão", "element": "fogo"},
+            {"id": 2, "name": "Inverno", "element": "água"},
+            {"id": 3, "name": "Outono", "element": "terra"},
+            {"id": 4, "name": "Primavera", "element": "ar"}
+          ]
+        },
+        {
+          "id": 4,
+          "question": "Como você reage a situações de conflito?",
+          "options": [
+            {"id": 1, "name": "Com paixão e intensidade", "element": "fogo"},
+            {"id": 2, "name": "Com empatia e sensibilidade", "element": "água"},
+            {"id": 3, "name": "Com estabilidade e paciência", "element": "terra"},
+            {"id": 4, "name": "Com racionalidade e objetividade", "element": "ar"}
+          ]
+        },
+        {
+          "id": 5,
+          "question": "Qual cor você mais se identifica?",
+          "options": [
+            {"id": 1, "name": "Vermelho", "element": "fogo"},
+            {"id": 2, "name": "Azul", "element": "água"},
+            {"id": 3, "name": "Verde", "element": "terra"},
+            {"id": 4, "name": "Amarelo", "element": "ar"}
+          ]
+        },
+        {
+          "id": 6,
+          "question": "O que te traz mais tranquilidade?",
+          "options": [
+            {"id": 1, "name": "Chama de uma vela", "element": "fogo"},
+            {"id": 2, "name": "Ondas do mar", "element": "água"},
+            {"id": 3, "name": "Solo firme sob os pés", "element": "terra"},
+            {"id": 4, "name": "Brisa suave", "element": "ar"}
+          ]
+        },
+        {
+          "id": 7,
+          "question": "Como você se sente em ambientes abertos?",
+          "options": [
+            {"id": 1, "name": "Energizado e inspirado", "element": "fogo"},
+            {"id": 2, "name": "Calmo e fluido", "element": "água"},
+            {"id": 3, "name": "Conectado e enraizado", "element": "terra"},
+            {"id": 4, "name": "Livre e expansivo", "element": "ar"}
+          ]
+        },
+        {
+          "id": 8,
+          "question": "Qual animal você mais admira?",
+          "options": [
+            {"id": 1, "name": "Leão", "element": "fogo"},
+            {"id": 2, "name": "Baleia", "element": "água"},
+            {"id": 3, "name": "Elefante", "element": "terra"},
+            {"id": 4, "name": "Águia", "element": "ar"}
+          ]
+        },
+        {
+          "id": 9,
+          "question": "Qual atividade criativa você prefere?",
+          "options": [
+            {"id": 1, "name": "Pintura ou escultura", "element": "fogo"},
+            {"id": 2, "name": "Dança ou música", "element": "água"},
+            {"id": 3, "name": "Jardinagem ou artesanato", "element": "terra"},
+            {"id": 4, "name": "Escrita ou poesia", "element": "ar"}
+          ]
+        },
+        {
+          "id": 10,
+          "question": "Como você lida com desafios?",
+          "options": [
+            {"id": 1, "name": "Com coragem e determinação", "element": "fogo"},
+            {"id": 2, "name": "Com flexibilidade e adaptabilidade", "element": "água"},
+            {"id": 3, "name": "Com persistência e resistência", "element": "terra"},
+            {"id": 4, "name": "Com análise lógica e estratégia", "element": "ar"}
+          ]
+        },
+        {
+          "id": 11,
+          "question": "Qual elemento da natureza você se sente mais conectado?",
+          "options": [
+            {"id": 1, "name": "Fogo (sol, calor)", "element": "fogo"},
+            {"id": 2, "name": "Água (rios, oceanos)", "element": "água"},
+            {"id": 3, "name": "Terra (montanhas, florestas)", "element": "terra"},
+            {"id": 4, "name": "Ar (vento, ar puro)", "element": "ar"}
+          ]
+        }
+      ],
+      "results": {
+        "fogo": "Sua afinidade é com o elemento Fogo!",
+        "água": "Sua afinidade é com o elemento Água!",
+        "terra": "Sua afinidade é com o elemento Terra!",
+        "ar": "Sua afinidade é com o elemento Ar!"
+      }
+    },
+    {
+      "id": 3,
+      "lure": "Descubra Qual Cavaleiro do Apocalipse Você Seria!",
+      "image": "https://i.pinimg.com/1200x/a7/0c/bd/a70cbd23010d2b8abb08ed613e36a4ec.jpg",
+      "description": "Em meio às sombras do desconhecido, surge a oportunidade de descobrir um segredo ancestral: qual Cavaleiro do Apocalipse guia a sua jornada?",
+      "title": "Preparado para Abraçar a Escuridão Interior?",
+      "questions": [
+        {
+          "id": 1,
+          "question": "Como você enfrenta desafios em sua vida?",
+          "options": [
+            {"id": 1, "name": "Com determinação e estratégia", "knight": "Conquista"},
+            {"id": 2, "name": "Com agressividade e confronto", "knight": "Guerra"},
+            {"id": 3, "name": "Com paciência e resiliência", "knight": "Fome"},
+            {"id": 4, "name": "Com aceitação e transformação", "knight": "Morte"}
+          ]
+        },
+        {
+          "id": 2,
+          "question": "Qual é a sua abordagem em situações de conflito?",
+          "options": [
+            {"id": 1, "name": "Busco a paz e a harmonia", "knight": "Fome"},
+            {"id": 2, "name": "Busco a justiça e a igualdade", "knight": "Conquista"},
+            {"id": 3, "name": "Busco a vitória a qualquer custo", "knight": "Guerra"},
+            {"id": 4, "name": "Aceito a natureza inevitável do conflito", "knight": "Morte"}
+          ]
+        },
+        {
+          "id": 3,
+          "question": "O que é mais importante para você?",
+          "options": [
+            {"id": 1, "name": "Poder e controle", "knight": "Conquista"},
+            {"id": 2, "name": "Honra e coragem", "knight": "Guerra"},
+            {"id": 3, "name": "Equilíbrio e sustentabilidade", "knight": "Fome"},
+            {"id": 4, "name": "Renovação e transformação", "knight": "Morte"}
+          ]
+        },
+        {
+          "id": 4,
+          "question": "Como você lida com mudanças em sua vida?",
+          "options": [
+            {"id": 1, "name": "Com resistência e controle", "knight": "Conquista"},
+            {"id": 2, "name": "Com agressividade e luta", "knight": "Guerra"},
+            {"id": 3, "name": "Com adaptabilidade e aceitação", "knight": "Morte"},
+            {"id": 4, "name": "Com disciplina e restrição", "knight": "Fome"}
+          ]
+        },
+        {
+          "id": 5,
+          "question": "Qual animal você associa mais a si mesmo?",
+          "options": [
+            {"id": 1, "name": "Águia", "knight": "Conquista"},
+            {"id": 2, "name": "Lobo", "knight": "Guerra"},
+            {"id": 3, "name": "Corvo", "knight": "Morte"},
+            {"id": 4, "name": "Cobra", "knight": "Fome"}
+          ]
+        },
+        {
+          "id": 6,
+          "question": "O que representa o fim do mundo para você?",
+          "options": [
+            {"id": 1, "name": "Perda de controle e domínio", "knight": "Conquista"},
+            {"id": 2, "name": "Guerra e destruição total", "knight": "Guerra"},
+            {"id": 3, "name": "Transformação e renovação", "knight": "Morte"},
+            {"id": 4, "name": "Escassez e colapso", "knight": "Fome"}
+          ]
+        },
+        {
+          "id": 7,
+          "question": "Como você enxerga seu papel no mundo?",
+          "options": [
+            {"id": 1, "name": "Líder e conquistador", "knight": "Conquista"},
+            {"id": 2, "name": "Guerrilheiro e defensor", "knight": "Guerra"},
+            {"id": 3, "name": "Agente de mudanças e renovação", "knight": "Morte"},
+            {"id": 4, "name": "Guardião da ordem e disciplina", "knight": "Fome"}
+          ]
+        },
+        {
+          "id": 8,
+          "question": "Qual arma você escolheria em batalha?",
+          "options": [
+            {"id": 1, "name": "Espada afiada", "knight": "Conquista"},
+            {"id": 2, "name": "Machado de guerra", "knight": "Guerra"},
+            {"id": 3, "name": "Foice de ceifador", "knight": "Morte"},
+            {"id": 4, "name": "Arco e flecha", "knight": "Fome"}
+          ]
+        },
+        {
+          "id": 9,
+          "question": "Qual é o seu lema de vida?",
+          "options": [
+            {"id": 1, "name": "Conquiste ou pereça", "knight": "Conquista"},
+            {"id": 2, "name": "Lute até o último suspiro", "knight": "Guerra"},
+            {"id": 3, "name": "Tudo deve morrer para renascer", "knight": "Morte"},
+            {"id": 4, "name": "Restrinja para preservar", "knight": "Fome"}
+          ]
+        },
+        {
+          "id": 10,
+          "question": "Como você vê a humanidade?",
+          "options": [
+            {"id": 1, "name": "Como seres a serem conquistados", "knight": "Conquista"},
+            {"id": 2, "name": "Como guerreiros em constante batalha", "knight": "Guerra"},
+            {"id": 3, "name": "Como parte de um ciclo natural", "knight": "Morte"},
+            {"id": 4, "name": "Como precisando de restrições para sobreviver", "knight": "Fome"}
+          ]
+        }
+      ],
+      "results": {
+        "Conquista": "Você seria o Cavaleiro da Conquista!",
+        "Guerra": "Você seria o Cavaleiro da Guerra!",
+        "Fome": "Você seria o Cavaleiro da Fome!",
+        "Morte": "Você seria o Cavaleiro da Morte!"
+      }
+    }
+  ]
+}
