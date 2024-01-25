@@ -5,6 +5,8 @@
     "ng": "ng",
     "start": "ng serve",
     "build": "ng build",
+    "build:github": "ng build --configuration=github",
+    "deploy": "npm run build:github && npx ngh --dir=dist/seu-projeto",
     "watch": "ng build --watch --configuration development",
     "test": "ng test"
   },
