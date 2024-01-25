@@ -34,7 +34,6 @@ export class QuizzComponent implements OnInit {
 
   setValuesOfQuizz(id:number|null) {
     const result = data.quizzes.find(quizz => quizz.id === this.id)
-    console.log(result)
     if (result) {
       this.finished = false
       this.title = result.title
