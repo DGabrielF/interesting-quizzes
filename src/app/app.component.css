@@ -1,0 +1,15 @@
+header{
+  margin-bottom: 1.5vh;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.page_title{
+  padding: 2vh 0;
+  width: 100%;
+
+  font-size: 7vw;
+  text-align: center;
+  letter-spacing: 2px;
+}

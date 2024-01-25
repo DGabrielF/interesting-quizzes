@@ -1,3 +1,11 @@
-<div class="home__container">
-  <app-quizz></app-quizz>
+<div class="home_container">
+  <div class="cards__home">
+    <app-card
+    *ngFor="let quizz of quizzes"
+    [id]="quizz.id"
+    [image]="quizz.image"
+    [title]="quizz.lure"
+    [description]="quizz.description"
+    ></app-card>
+  </div>
 </div>

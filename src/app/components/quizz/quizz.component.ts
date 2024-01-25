@@ -1,5 +1,6 @@
 import { Component, OnInit } from '@angular/core';
-import quizzes from "../../../assets/data/quizzes.json"
+import data from "../../../assets/data/quizzes.json"
+import { ActivatedRoute } from '@angular/router';
 
 @Component({
   selector: 'app-quizz',
@@ -7,29 +8,41 @@ import quizzes from "../../../assets/data/quizzes.json"
   styleUrls: ['./quizz.component.css']
 })
 export class QuizzComponent implements OnInit {
-  title:string = "";
-  questions:any;
-  questionSelected:any;
-  answers:string[]=[];
-  answerSelected:string="";
+  private id:number|null = 0
+  title:string = ""
 
-  questionIndex:number=0;
-  questionMaxIndex:number=0;
+  questions:any
+  questionSelected:any
+  questionIndex:number=0
+  questionMaxIndex:number=0
 
-  finished:boolean=false;
+  answers:string[]=[]
+  answerSelected:string=""
 
-  constructor() { }
+  finished:boolean=false
+
+  quizzResult:any
+
+  constructor(private route:ActivatedRoute) { }
 
   ngOnInit(): void {
-    if(quizzes){
+    this.route.paramMap.subscribe( value => {
+      this.id = Number(value.get("id"))
+    })
+    this.setValuesOfQuizz(this.id);
+  }
+
+  setValuesOfQuizz(id:number|null) {
+    const result = data.quizzes.find(quizz => quizz.id === this.id)
+    console.log(result)
+    if (result) {
       this.finished = false
-      this.title = quizzes.title
-
-      this.questions = quizzes.questions
-      this.questionSelected = this.questions[this.questionIndex]
-
+      this.title = result.title
+      this.questions = result.questions
       this.questionIndex = 0
       this.questionMaxIndex = this.questions.length
+      this.questionSelected = this.questions[this.questionIndex]
+      this.quizzResult = result.results
     }
   }
 
@@ -45,9 +58,10 @@ export class QuizzComponent implements OnInit {
     } else {
       const finalAnswer:string = await this.checkResult(this.answers)
       this.finished = true
-      this.answerSelected  = quizzes.results[finalAnswer as keyof typeof quizzes.results]
+      this.answerSelected  = this.quizzResult[finalAnswer]
     }
   }
+
   async checkResult(answers:string[]){
     const result = answers.reduce((previous, current, i, arr)=>{
       if(arr.filter(item => item === previous).length > arr.filter(item => item === current).length){

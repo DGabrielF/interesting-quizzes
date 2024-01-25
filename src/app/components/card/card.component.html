@@ -1,0 +1,15 @@
+<div class="card" id="{{id}}">
+  <div class="card_image">
+    <img src="{{image}}" alt="">
+  </div>
+  <div class="card_info">
+    <a [routerLink]="['quizz', id]">
+    <div class="card_title">
+      <h2>{{title}}</h2>
+    </div>
+    <div class="card_description">
+      <p>{{description}}</p>
+    </div>
+    </a>
+  </div>
+</div>

@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import data from "../../../assets/data/quizzes.json"
 
 @Component({
   selector: 'app-home',
@@ -6,6 +7,7 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./home.component.css']
 })
 export class HomeComponent implements OnInit {
+  quizzes = data.quizzes
 
   constructor() { }
 

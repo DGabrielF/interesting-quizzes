@@ -1,7 +1,7 @@
 <div class="quizz__container">
   <div class="quizz_title">
-    <h1>StormBuzzFeedTrooper</h1>
     <h2 class="title">{{title}}</h2>
+    <a [routerLink]="['']"> < Voltar </a>
   </div>
   <div *ngIf=!finished class="quizz_question">
     <h3 class="question">{{questionSelected.question}}</h3>
